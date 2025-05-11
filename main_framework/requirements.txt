@@ -1,0 +1,5 @@
+transformers
+Pillow
+tqdm
+python-dotenv
+openai
