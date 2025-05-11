@@ -24,6 +24,93 @@ PRIVACY-LEAKAGE-DETECTION/
 └── README.md                          # Project documentation (this file)
 ````
 
+Certainly! Below is the complete **English version** of the updated `README.md` content with the added sections: Environment Setup, Main Framework Execution, Batch Execution, and Adding New Samples.
+
+---
+
+## 🚀 Usage
+
+### 0. Environment Setup
+
+Before running the project, you need to set up the appropriate Python environment. We provide a pre-configured environment file named `vlmprivacy4_environment.yml` to simplify the setup process.
+
+#### Create and Activate the Environment
+
+To create a conda environment named `vlmprivacy4` and install all necessary dependencies, run:
+
+```bash
+conda env create -f vlmprivacy4_environment.yml
+conda activate vlmprivacy4
+```
+
+This will install all required packages for the detection framework.
+
+---
+
+### 1. Main Framework Execution
+
+To run the full privacy leakage detection pipeline (which combines LLM and VLM), please ensure:
+
+* The [Recognize Anything](https://github.com/xinyu1205/recognize-anything) repository has been cloned into the following path:
+
+```
+main_framework/object_aware_preprocessing/recognize-anything/
+```
+
+This module is required for object-aware preprocessing of images.
+
+#### Run a Single Example
+
+To run the pipeline on a single demo image-context pair (e.g., `demo_1`), execute the following:
+
+```bash
+cd main_framework
+python run_all_steps.py demo_1
+```
+
+---
+
+### 2. Batch Execution
+
+To run multiple image-context pairs in batch mode, use the following command:
+
+```bash
+cd main_framework
+python autorun.py
+```
+
+The script will prompt you to input a **start row** and **end row** corresponding to entries in the `experiments.xlsx` file. This file defines which samples to run and their configurations.
+
+---
+
+### 3. Add and Run New Samples
+
+To evaluate newly added image-context pairs (e.g., `demo_new`), ensure the following:
+
+* Place the new image file at:
+
+  ```
+  datasets/input_images/demo_new.jpg
+  ```
+
+* Add the corresponding context entry in the following files:
+
+  * If it contains privacy-sensitive content:
+
+    ```
+    datasets/context_privacy.json
+    ```
+
+  * If it is a non-privacy context:
+
+    ```
+    datasets/context_nonprivacy.json
+    ```
+
+Make sure the JSON structure matches existing entries, and the `id` field should match the image filename (e.g., `"demo_new"`).
+
+
+
 ## 📦 Acknowledgement
 
 The `main_framework` component of this project used the open-source repository [Recognize Anything](https://github.com/xinyu1205/recognize-anything) by [@xinyu1205](https://github.com/xinyu1205).  
