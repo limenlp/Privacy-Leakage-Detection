@@ -6,6 +6,7 @@ This project provides a privacy leakage detection framework that evaluates wheth
 
 ## 📁 Project Structure
 
+```bash
 PRIVACY-LEAKAGE-DETECTION/
 │
 ├── datasets/                          # Input data (images and context)
@@ -20,7 +21,7 @@ PRIVACY-LEAKAGE-DETECTION/
 ├── main_framework/                    # Full pipeline using both LLM and VLM
 │
 └── README.md                          # Project documentation (this file)
-
+````
 
 ## 📦 Acknowledgement
 
