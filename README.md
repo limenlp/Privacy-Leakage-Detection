@@ -75,7 +75,7 @@ cd main_framework
 python autorun.py
 ```
 
-The script will prompt you to input a **start row** and **end row** corresponding to entries in the `experiments.xlsx` file. This file defines which samples to run and their configurations.
+The script will prompt you to input a **starting row** and an **ending row** corresponding to entries in the `experiments.xlsx` file. This file defines which samples to run and their configurations.
 
 ---
 
