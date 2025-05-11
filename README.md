@@ -21,6 +21,7 @@ PRIVACY-LEAKAGE-DETECTION/
 ├── main_framework/                    # Full pipeline using both LLM and VLM
 │
 └── README.md                          # Project documentation (this file)
+````
 
 ## 📦 Acknowledgement
 
