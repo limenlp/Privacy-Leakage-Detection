@@ -66,7 +66,7 @@ python run_all_steps.py demo_1
 
 ---
 
-### 2. Batch Execution
+#### Batch Execution
 
 To run multiple image-context pairs in batch mode, use the following command:
 
@@ -79,7 +79,7 @@ The script will prompt you to input a **start row** and **end row** correspondin
 
 ---
 
-### 3. Add and Run New Samples
+### 2. Add and Run New Samples
 
 To evaluate newly added image-context pairs (e.g., `demo_new`), ensure the following:
 
