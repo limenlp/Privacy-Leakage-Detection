@@ -41,10 +41,6 @@ conda activate vlmprivacy4
 
 This will install all required packages for the detection framework.
 
----
-
-### 1. Main Framework Execution
-
 To run the full privacy leakage detection pipeline (which combines LLM and VLM), please ensure:
 
 * The [Recognize Anything](https://github.com/xinyu1205/recognize-anything) repository has been cloned into the following path:
@@ -54,6 +50,12 @@ main_framework/object_aware_preprocessing/recognize-anything/
 ```
 
 This module is required for object-aware preprocessing of images.
+
+---
+
+### 1. Main Framework Execution
+
+
 
 #### Run a Single Example
 
