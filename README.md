@@ -1,5 +1,6 @@
 # SituationalPriv: A Context-Aware Framework for Privacy Detection and Protection in Vision-Language Models
 
+SituationalPriv, a context-aware framework for privacy leakage detection and protection.
 This project provides a privacy leakage detection framework that evaluates whether contextual visual and textual content may lead to unintended privacy disclosure. It includes a unified main framework combining LLM and VLM, as well as LLM-only and VLM-only baselines for comparison. The detection is performed over image-context pairs under both privacy and non-privacy conditions.
 
 ---
