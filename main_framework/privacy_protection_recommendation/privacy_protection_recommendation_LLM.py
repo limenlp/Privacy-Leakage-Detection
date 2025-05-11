@@ -10,7 +10,7 @@ load_dotenv()
 
 # Set up the OpenAI client
 # client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY")) # openai
-client = OpenAI(api_key="y9Rf2QAbVg9qZXkfnktXkIfIuFOpPkDG", base_url="https://api.deepinfra.com/v1/openai",) # deepinfra
+client = OpenAI(api_key="", base_url="https://api.deepinfra.com/v1/openai",) # deepinfra
 # client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"), base_url="https://api.deepseek.com") # deepseek
 
 # Define input arguments
