@@ -24,10 +24,6 @@ PRIVACY-LEAKAGE-DETECTION/
 └── README.md                          # Project documentation (this file)
 ````
 
-Certainly! Below is the complete **English version** of the updated `README.md` content with the added sections: Environment Setup, Main Framework Execution, Batch Execution, and Adding New Samples.
-
----
-
 ## 🚀 Usage
 
 ### 0. Environment Setup
